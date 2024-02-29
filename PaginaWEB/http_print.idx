@@ -1,0 +1,7 @@
++ledSelected(1,true)
++ledSelected(1,false)
++ledSelected(2,true)
++ledSelected(2,false)
++modoAC
++tensaoSaida
++correnteSaida
