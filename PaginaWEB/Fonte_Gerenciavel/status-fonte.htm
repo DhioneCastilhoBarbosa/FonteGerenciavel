@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelbras</title>
+  <link rel="icon" type="image/x-icon" href="/icon.gif">
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <img class="intelbras" src="/intelbras.png" alt="">
+    <ul>
+      <li><a href="/status-fonte.htm">Status</a></li>
+      <li><a href="/saida.htm">Comandos</a></li>
+      <li><a href="/dispositivo.htm">Sistema</a></li>
+      <li class="logout"> <a href="/index.htm"><img src="/logout.png" alt=""></a></li>
+    </ul>
+  </header>
+
+  <nav>
+    <ul>
+      <li class="active">
+        Status
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <div class="content">
+
+      <h2>Status da fonte</h2>
+
+      <div class="content-box">
+
+        <div class="box-status">
+          <div class="box-title">
+            <img src="thermometer.png" alt="Termometro">
+            <p>Temperatura</p>
+          </div>
+          <p>25.4 °C</p>
+        </div>
+
+        <div class="box-status">
+          <div class="box-title">
+            <img src="rotate-cw.png" alt="modo de operação">
+            <p>Modo de operação</p>
+          </div>
+          <p>AC</p>
+        </div>
+        <div class="box-status">
+          <div class="box-title">
+            <img src="alert-triangle.png" alt="falta de energia">
+            <p>Falta de energia</p>
+          </div>
+          <p>Não</p>
+        </div>
+
+        <div class="box-status">
+          <div class="box-title">
+            <img src="eletric.png" alt="tensão de saída">
+            <p>Tensão de Saída</p>
+          </div>
+          <p>48 V</p>
+        </div>
+
+        <div class="box-status">
+          <div class="box-title">
+            <img src="pie-chart.png" alt="consumo total">
+            <p>Consumo Total</p>
+          </div>
+          <p>2.5 A</p>
+        </div>
+
+      </div>
+
+      <h2>Status da carregamento</h2>
+      <div class="content-box">
+
+        <div class="box-status">
+          <div class="box-title">
+            <img src="battery-charging.png" alt="Termometro">
+            <p>Status da Bateria</p>
+          </div>
+          <p>Carregando</p>
+        </div>
+
+        <div class="box-status">
+          <div class="box-title">
+            <img src="eletric.png" alt="Termometro">
+            <p>Tensão da Bateria</p>
+          </div>
+          <p>45 V</p>
+        </div>
+
+        <div class="box-status">
+          <div class="box-title">
+            <img src="pie-chart.png" alt="Termometro">
+            <p>Consumo</p>
+          </div>
+          <p>1 A</p>
+        </div>
+
+      </div>
+
+      <h2>Status da Saída</h2>
+      <div class="content-box">
+
+        <div class="box-status" id="saida-1">
+          <div class="box-title">
+            <img id="img-1" src="eletric-green.png" alt="saida">
+            <p>Servidor</p>
+          </div>
+          <p>Ativa</p>
+
+        </div>
+      </div>
+
+
+    
+
+    </div>
+  </main>
+
+ 
+</body>
+
+<script src="/getValuer.js"></script>
+
+</html>

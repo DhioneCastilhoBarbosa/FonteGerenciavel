@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelbras</title>
+  <link rel="icon" type="image/x-icon" href="/icon.gif">
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+  <header>
+    <img class="intelbras" src="intelbras.png" alt="">
+    <ul>
+      <li><a href="/status.htm">Status</a></li>
+      <li><a href="/saida.htm">Comandos</a></li>
+      <li><a href="/dispositivo.htm">Sistema</a></li>
+      <li class="logout"> <a href="/index.htm"><img src="/logout.png" alt=""></a></li>
+    </ul>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="/dispositivo.htm">Dispositivo</a></li>
+      <li><a href="/lan.htm">LAN</a></li>
+      <li><a href="/senha.htm">Senha</a></li>
+      <li><a href="/data.htm">Data e Hora</a></li>
+      <li><a href="/watchdog.htm">Watchdog</a></li>
+      <li class="active"><a href="/snmp.htm">SNMP</a></li>
+      <li><a href="/reset.htm">Reset</a></li>
+    </ul>
+  </nav>
+  <main>
+
+    <div class="content">
+      <form method="get" action="snmp.htm" id="configSnmp">
+        <h2>SNMP</h2>
+        <div class="box-SNMP">
+          <div class = "title_SNMP">
+            <h3>Configuração das Communities</h3>
+          </div>
+          <div class="box-content-wathdog">
+            <strong>Read Community 1</strong>
+            <input class="numberBox" id="read1" name="read1" type="text"  value="private">
+          </div>
+
+          <div class="box-content-wathdog">
+            <strong>Read Community 2</strong>
+            <input class="numberBox" id="read2" name="read2"type="text" value="read">
+          </div>
+
+          <div class="box-content-wathdog">
+            <strong>Read Community 3</strong>
+            <input class="numberBox" id="read3" name="read3" type="text" value="public">
+          </div>
+
+          <div class="box-content-wathdog">
+            <strong>Write Community 1</strong>
+            <input class="numberBox" id="write1" name="write1" type="text" value="private">
+          </div>
+
+          <div class="box-content-wathdog">
+            <strong>Write Community 2</strong>
+            <input class="numberBox" id="write2" name="write2" type="text" value="write">
+          </div>
+
+          <div class="box-content-wathdog">
+            <strong>Write Community 3</strong>
+            <input class="numberBox" id="write3" name="write3" type="text" value="public">
+          </div>
+
+          <div class="checkBox_SNMP">
+            <strong>Ativar SNMP</strong>
+            <input type="checkbox" id="ativaSNMP" name="ativaSNMP" value="yes">
+          </div>
+
+          <button type="submit" form="configSnmp">Salvar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  </div>
+
+</body>
+<script src="/setPage.js"></script>
+
+</html>

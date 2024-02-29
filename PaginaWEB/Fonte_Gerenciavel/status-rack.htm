@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelbras</title>
+  <link rel="icon" type="image/x-icon" href="/icon.gif">
+  <link rel="stylesheet" href="/style.css">
+ 
+</head>
+
+<body>
+  <header>
+    <img class="intelbras" src="/intelbras.png" alt="">
+    <ul>
+      <li><a href="/status-rack.htm">Status</a></li>
+      <li><a href="/saida.htm">Comandos</a></li>
+      <li><a href="/dispositivo.htm">Sistema</a></li>
+      <li class="logout"> <a href="/index.htm"><img src="/logout.png" alt=""></a></li>
+    </ul>
+  </header>
+  
+  <nav>
+    <ul>
+      <li class="active">
+        Status
+      </li>
+    </ul>
+  </nav>
+  
+  <main>
+   
+    
+    <div class="content">
+
+      <h2>Status do Rack</h2>
+
+      <div class="content-box">
+
+        <div class="box-status">
+          <div class="box-title">
+            <img src="thermometer.png" alt="Termometro">
+            <p>Temperatura</p>
+          </div>
+          <p>25.4 °C</p>
+        </div>
+
+
+        <div class="box-status">
+          <div class="box-title">
+            <img src="pie-chart.png" alt="consumo total">
+            <p>Consumo Total</p>
+          </div>
+          <p>2.5 A</p>
+        </div>
+
+        <div class="box-status">
+          <div class="box-title">
+            <img src="trending-up.png" alt="potência total">
+            <p>Potência Total</p>
+          </div>
+          <p>462 W</p>
+        </div>
+        <div class="box-status">
+          <div class="box-title">
+            <img src="eletric.png" alt="tensão">
+            <p>Tensão</p>
+          </div>
+          <p>220 V</p>
+        </div>
+
+    
+      </div>
+
+      
+      <h2>Status da Saída</h2>
+      <div class="content-box">
+
+        <div class="box-status" id="saida-1" >
+          <div class="box-title">
+            <img src="eletric-green.png" alt="saida">
+            <p>Servidor</p>
+          </div>
+          <p>Ativa</p>
+        </div>
+
+        <div class="box-status" id="saida-2">
+          <div class="box-title">
+            <img src="eletric-red.png" alt="saida">
+            <p>OLT</p>
+          </div>
+          <p>Desativado</p>
+        </div>
+
+        <div class="box-status" id="saida-3">
+          <div class="box-title">
+            <img src="eletric-red.png" alt="saida">
+            <p>Saída 3</p>
+          </div>
+          <p>Ativa</p>
+        </div>
+
+        <div class="box-status" id="saida-4">
+          <div class="box-title">
+            <img src="eletric-red.png" alt="saida">
+            <p>Saída 4</p>
+          </div>
+          <p>Desativado</p>
+        </div>
+        <div class="box-status" id="saida-5">
+          <div class="box-title">
+            <img src="eletric-red.png" alt="saida">
+            <p>Saída 5</p>
+          </div>
+          <p>Desativado</p>
+        </div>
+
+        <div class="box-status" id="saida-6" >
+          <div class="box-title">
+            <img src="eletric-red.png" alt="saida">
+            <p>Saída 6</p>
+          </div>
+          <p>Desativado</p>
+        </div>
+
+        <div class="box-status" id="saida-7" >
+          <div class="box-title">
+            <img src="eletric-red.png" alt="saida">
+            <p>Saída 7</p>
+          </div>
+          <p>Desativado</p>
+        </div>
+
+        <div class="box-status" id="saida-8" >
+          <div class="box-title">
+            <img src="eletric-red.png" alt="saida">
+            <p>Saída 8</p>
+          </div>
+          <p>Desativado</p>
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+  </main>
+
+
+</body>
+
+<script src="/getValuer.js"></script>
+</html>
