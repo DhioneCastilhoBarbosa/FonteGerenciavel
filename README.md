@@ -5,7 +5,7 @@
 Este é um projeto de uma fonte de energia de 48 volts 4 amperes, sua principal funcionalidade e forncerce energia mesmo durante uma falha de forncecimento da rede eletrica por meio de banco de baterias.
 Seu principal aplicação de cenario e no ambiente de telecomunicação fornecendo energia para OLTs e demais dispositivos.
 
-### Divisão do proejto
+### Divisão do projeto
 
 Este projeto se divide em 3 partes: <br>
 * Firmware da placa da fonte de potencia;
