@@ -102,7 +102,20 @@ var authUsername = "intelbras";
 var authPassword = "admin123"; 
 ```
 
-### Fluxograma de sequencia para watchDog
+## Variaveis a serem monitoradas
+
+ - Temperatura (dado vindo do chip da placa gerenciavel),
+ - Tensão da Saida da fonte (0 - 55 volts),
+ - Corrente da Saída da fonte (0 - 3A),
+ - Tensão da Bateria (0 - 55 volts),
+ - Corrente de carregamento(0-1A),
+ - Status da Saída (on / off),
+ - Modo de operação AC( quando tem tensão da rede eletrica) - DC( energia fornecida pela bateria),
+ - Contabilizar as quedas de energia da rede eletrica ultimos 15 dias (sera sinalizado apenas uma flag na pagina de configuração eno SNMP),
+ - Status de carregamento (Carregando / Carregada)
+
+
+## Fluxograma de sequencia para watchDog
 
 <br/>
 <div align="center">
@@ -119,3 +132,4 @@ A atualização desse produto nesse primeiro momento o usuario deve baixa o arqu
   <img src="./assets/Atualização.png">
 </div>
 <br/>
+
