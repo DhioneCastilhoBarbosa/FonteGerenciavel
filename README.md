@@ -89,7 +89,11 @@ Temos todas as telas que necessitamos ja desenvolvidas falta realizar ajuste com
 ## Teste da pagina web
 
 Para visualizar todo o funcionamento da pagina web e necessario instalar um plugin Live Serve no Vscode e abrir o aquivo index.htm com live server.
-
+<br/>
+<div align="center">
+  <img src="./assets/liveServer.PNG">
+</div>
+<br/>
 A senha de acesso hoje estão de forma estaticas no arquivo authorization.js
 ```
 var authUsername = "intelbras";
