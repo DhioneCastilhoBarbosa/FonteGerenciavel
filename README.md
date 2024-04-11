@@ -102,3 +102,18 @@ var authUsername = "intelbras";
 var authPassword = "admin123"; 
 ```
 
+### Fluxo de sequencia do watchDog
+
+<br/>
+<div align="center">
+  <img src="./assets/watchDog EFT4804.png">
+</div>
+<br/>
+
+## Fluxo de sequencia para atualização
+
+<br/>
+<div align="center">
+  <img src="./assets/Atualização.png">
+</div>
+<br/>
