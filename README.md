@@ -106,7 +106,7 @@ var authPassword = "admin123";
 
  - Temperatura (dado vindo do chip da placa gerenciavel),
  - Tensão da Saida da fonte (0 - 55 volts),
- - Corrente da Saída da fonte (0 - 3A),
+ - Corrente da Saída da fonte (0 - 3.5A),
  - Tensão da Bateria (0 - 55 volts),
  - Corrente de carregamento(0-1A),
  - Status da Saída (on / off),
