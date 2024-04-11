@@ -59,7 +59,8 @@ os arquivos **.html** devem ser salvos em **.htm** e para poder embarca as pagin
 </div>
 <br/>
 
-Nesse programa em Advanced Settings e possivel configurar quais tipos de arquivos deve ser convertidos para gerar a imagem.
+O primeiro passo e localizar o caminho da pasta que contem os aquivos htm,css, javascript, imagens.Verificar se todas as esteções dos arquivos que deseja gera a imagem estão adicionada na opção Advanced Settings onde é possivel configurar quais tipos de arquivos deve ser convertidos na geração da imagem que será embarcada no firmware.
+Depois selecione o local para salvar a imagem e clique em **Generate**.
 
 <br/>
 
