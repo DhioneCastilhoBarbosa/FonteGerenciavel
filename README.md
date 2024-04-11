@@ -45,7 +45,7 @@ Este projeto se divide em 3 partes: <br>
 Os firmware foram desenvolvidos utilizado o MPLAB da Microchipe na versão v.6.00. ( *pode ser utilizar qualquer versão acima dessa para continuar o desenvolvimento.* )
 <br/>
 Para o firmware da placa gerenciavel foi utilizdo o framework **[Harmony V3](https://www.microchip.com/en-us/tools-resources/configure/mplab-harmony#)**  
-Todas as lib utilizadas pode ser baixadas nesse **[Link](https://drive.google.com/drive/folders/18QN0fKlSDZrzyqTQNWSPDHAUYjB1840t?usp=drive_link)**
+Todas as lib utilizadas pode ser baixadas diretamente no gerenciador de biblioteca do Harmony V3 no MPLAB.
 
 ### 2- Pagina WEB
 
