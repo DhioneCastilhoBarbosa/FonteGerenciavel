@@ -5,9 +5,8 @@
 Este é um projeto de uma fonte de energia de 48 volts 4 amperes, sua principal funcionalidade e forncerce energia mesmo durante uma falha de forncecimento da rede eletrica por meio de banco de baterias.
 Seu principal aplicação de cenario e no ambiente de telecomunicação fornecendo energia para OLTs e demais dispositivos.
 
-<div style="align-items:center; display: flex; flex-direction: column; justify-content: center;">
-  <img width="600px" src="./assets/Intelbras_EFT_4804G_direita_b.png" 
-  style = "margin-bottom: -100px; margin-top: -200px">
+<div align ="center" style = "margin: -100px 100px -100px 100px">
+  <img width="600px" src="./assets/Intelbras_EFT_4804G_direita_b.png" >
 </div>
 
 
