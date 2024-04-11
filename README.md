@@ -81,7 +81,7 @@ Depois selecione o local para salvar a imagem e clique em **Generate**.
  - Atualização Remota, 
  - Integração dos dados capturados pelo firmware da placa gerenciavel na pagina de configuração WEB.
 
-3- Pagina de configuração da fonte.
+3- **Pagina de configuração da fonte** <br/>
 Temos todas as telas que necessitamos ja desenvolvidas falta realizar ajuste como:
 - resposividade para possibilitar o acesso e utilização por dispositivo moveis.
 - Integração dos dados enviado pelo processamento da placa de gerenciamento.
