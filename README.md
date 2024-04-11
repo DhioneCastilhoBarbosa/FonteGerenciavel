@@ -102,7 +102,7 @@ var authUsername = "intelbras";
 var authPassword = "admin123"; 
 ```
 
-### Fluxo de sequencia do watchDog
+### Fluxograma de sequencia para watchDog
 
 <br/>
 <div align="center">
@@ -110,7 +110,9 @@ var authPassword = "admin123";
 </div>
 <br/>
 
-## Fluxo de sequencia para atualização
+## Fluxograma de sequencia para atualização
+
+A atualização desse produto nesse primeiro momento o usuario deve baixa o arquivo e carrega-lo atraves da pagina de configuração do produto.
 
 <br/>
 <div align="center">
