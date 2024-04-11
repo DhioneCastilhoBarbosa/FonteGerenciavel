@@ -8,8 +8,6 @@ Seu principal aplicação de cenario e no ambiente de telecomunicação fornecen
 <div style="align-items:center; display: flex; flex-direction: column; justify-content: center;">
   <img width="600px" src="./assets/Intelbras_EFT_4804G_direita_b.png" 
   style = "margin-bottom: -100px; margin-top: -200px">
-  <img width="400px" src="./assets/Intelbras_EFT_4804G_direita.png" 
-  style = "margin-bottom: -100px; margin-top: -200px">
 </div>
 
 
