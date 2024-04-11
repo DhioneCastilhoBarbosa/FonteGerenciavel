@@ -94,6 +94,7 @@ Para visualizar todo o funcionamento da pagina web e necessario instalar um plug
   <img src="./assets/liveServer.PNG">
 </div>
 <br/>
+
 A senha de acesso hoje estão de forma estaticas no arquivo authorization.js
 ```
 var authUsername = "intelbras";
