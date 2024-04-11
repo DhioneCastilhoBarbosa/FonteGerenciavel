@@ -111,7 +111,7 @@ var authPassword = "admin123";
  - Corrente de carregamento(0-1A),
  - Status da Saída (on / off),
  - Modo de operação AC( quando tem tensão da rede eletrica) - DC( energia fornecida pela bateria),
- - Contabilizar as quedas de energia da rede eletrica ultimos 15 dias (sera sinalizado apenas uma flag na pagina de configuração eno SNMP),
+ - Contabilizar as quedas de energia da rede eletrica ultimos 15 dias (sera sinalizado apenas uma flag na pagina de configuração),
  - Status de carregamento (Carregando / Carregada)
 
 
