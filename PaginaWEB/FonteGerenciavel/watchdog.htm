@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelbras</title>
+  <link rel="icon" type="image/x-icon" href="/icon.gif">
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+  <header>
+    <img class="intelbras" src="intelbras.png" alt="">
+    <ul>
+      <li><a href="/status.htm">Status</a></li>
+      <li><a href="/saida.htm">Comandos</a></li>
+      <li><a href="/dispositivo.htm">Sistema</a></li>
+      <li class="logout"> <a href="/index.htm"><img src="/logout.png" alt=""></a></li>
+    </ul>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="/dispositivo.htm">Dispositivo</a></li>
+      <li><a href="/lan.htm">LAN</a></li>
+      <li><a href="/senha.htm">Senha</a></li>
+      <li><a href="/data.htm">Data e Hora</a></li>
+      <li class="active"><a href="/watchdog.htm">Watchdog</a></li>
+      <li><a href="/snmp.htm">SNMP</a></li>
+      <li><a href="/reset.htm">Reset</a></li>
+    </ul>
+  </nav>
+  <main>
+
+    <div class="content">
+      <form method="get" action="watchdog.htm" id="configWatchdog">
+        <h2>Watchdog</h2>
+        <div class="box-wathdog">
+
+          <div class="box-content-wathdog">
+            <strong>Intervalo de varredura (Min):</strong>
+            <input class="numberBox" id="interval" type="number" min="1" value="1">
+          </div>
+
+          <div class="box-content-wathdog">
+            <strong>Limite Ping(1-10000) ms:</strong>
+            <input class="numberBox" id="ping" type="number" min="1" max="10000" value="1">
+          </div>
+
+          <div class="box-content-wathdog">
+            <strong>Tempo de Rearme das saídas(seg):</strong>
+            <input class="numberBox" id="rearme" type="number" min="10" value="10">
+          </div>
+
+          <div class="box-content-wathdog">
+            <strong>Número máximo de reserts por porta:</strong>
+            <input class="numberBox" id="porta" name="number" type="number" min="10" value="10">
+          </div>
+
+          <div class="checkBox">
+            <strong>Ativar watchdog</strong>
+            <input type="checkbox" id="ativaWatch" name="ativaWatch" value="yes">
+          </div>
+
+          <button type="submit" form="configWatchdog">Salvar</button>
+        </div>
+      </form>
+
+
+      <form method="get" action="watchdog.htm" id="configWatchdogSaida">
+        <h2>Configurar watchdog das saídas</h2>
+        <div class="box-wathdog">
+          <table>
+            <tr>
+              <th>Saída</th>
+              <th>Habilitar</th>
+              <th>IP</th>
+            </tr>
+            <tr>
+              <td>
+                <select name="saida">
+                <option value="1" >saida 1</option>
+              </select>
+            </td>
+            <td>
+              <input type="checkbox" id="ativaSaida" name="ativaSaida" value="yes">
+            </td>
+            
+            <td>
+              <input type="text" name="ip-saida" maxlength="15" onkeypress="return event.charCode >= 48 && event.charCode <= 57 || event.charCode== 46">
+            </td>
+            </tr>
+          </table>
+          <button type="submit" form="configWatchdogSaida">Salvar</button>
+        </div>
+      </form>
+
+      <div>
+        <h2>Configurar atual das saídas</h2>
+
+        <div class="box-wathdog">
+          <table id="configStatus">
+            <tr>
+              <th>Saída</th>
+              <th>Status</th>
+              <th>IP</th>
+            </tr>
+            <tr>
+              <td>
+               <label for="">1</label>
+              </td>
+              <td>
+                <label for="">Desabilitada</label>
+               </td>
+               <td>
+                <label for="">0.0.0.0</label>
+               </td>
+            </tr>
+        </div>
+      </div>
+
+
+    </div>
+  </main>
+
+  </div>
+
+</body>
+<script src="/setPage.js"></script>
+
+</html>
